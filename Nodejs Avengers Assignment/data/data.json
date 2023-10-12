@@ -1,0 +1,190 @@
+{
+  "avengers": [
+    {
+      "title": "",
+      "power": "",
+      "city": " ",
+      "poster": " "
+    },
+    {
+      "title": "Madame Hydra",
+      "power": 4,
+      "city": "",
+      "poster": ""
+    },
+    {
+      "title": "Dead Girl",
+      "power": 1,
+      "city": "",
+      "poster": ""
+    },
+    {
+      "title": "Leper Queen",
+      "power": 10,
+      "city": "Bellary",
+      "poster": ""
+    },
+    {
+      "title": "Jackal",
+      "power": 5,
+      "city": "Davanagere",
+      "poster": "Spider-Man.jpg"
+    },
+    {
+      "title": "Morph",
+      "power": 6,
+      "city": "Shivamogga",
+      "poster": "Spider-Man.jpg"
+    },
+    {
+      "title": "Big Wheel",
+      "power": 7,
+      "city": "Gadag",
+      "poster": "Black Widow.jpg"
+    },
+    {
+      "title": "Wallflower",
+      "power": 7,
+      "city": "Kalaburagi",
+      "poster": "title.jpg"
+    },
+    {
+      "title": "Elektra",
+      "power": 7,
+      "city": "Ballari",
+      "poster": "Black Widow.jpg"
+    },
+    {
+      "title": "Deathbird",
+      "power": 1,
+      "city": "Hospet",
+      "poster": "Hulk.jpg"
+    },
+    {
+      "title": "PsyNapse",
+      "power": 6,
+      "city": "Kalaburagi",
+      "poster": "PsyNapsejpg"
+    },
+    {
+      "title": "Ogun",
+      "power": 9,
+      "city": "Hubballi-Dharwad",
+      "poster": "Ogunjpg"
+    },
+    {
+      "title": "Scarlet Witch",
+      "power": 4,
+      "city": "Tumakuru",
+      "poster": "Scarlet Witch.jpg"
+    },
+    {
+      "title": "Ogun",
+      "power": 9,
+      "city": "Belagavi",
+      "poster": "Ogun.jpg"
+    },
+    {
+      "title": "Pet Avengers",
+      "power": 6,
+      "city": "Gadag",
+      "poster": "Pet Avengers.jpg"
+    },
+    {
+      "title": "Hank Pym",
+      "power": 1,
+      "city": "Hassan",
+      "poster": "Hank Pym.jpg"
+    },
+    {
+      "title": "The Stranger",
+      "power": 5,
+      "city": "Chikmagalur",
+      "poster": "The Stranger.jpg"
+    },
+    {
+      "title": "Matthew Murdock",
+      "power": 2,
+      "city": "Vijayapura",
+      "poster": "Matthew Murdock.jpg"
+    },
+    {
+      "title": "Steel Serpent",
+      "power": 10,
+      "city": "Bagalkot",
+      "poster": "Steel Serpent.jpg"
+    },
+    {
+      "title": "Nico Minoru",
+      "power": 10,
+      "city": "Dharwad",
+      "poster": "Nico Minoru.jpg"
+    },
+    {
+      "title": "Veda",
+      "power": 6,
+      "city": "Gadag",
+      "poster": "Veda.jpg"
+    },
+    {
+      "title": "Rafael Vega",
+      "power": 8,
+      "city": "Mysuru",
+      "poster": "Rafael Vega.jpg"
+    },
+    {
+      "title": "Misty Knight",
+      "power": 9,
+      "city": "Vijayapura",
+      "poster": "Misty Knight.jpg"
+    },
+    {
+      "title": "Solo",
+      "power": 7,
+      "city": "Chikmagalur",
+      "poster": "Solo.jpg"
+    },
+    {
+      "title": "Quasimodo",
+      "power": 5,
+      "city": "Sirsi",
+      "poster": "Quasimodo.jpg"
+    },
+    {
+      "title": "Shooting Star",
+      "power": 1,
+      "city": "Udupi",
+      "poster": "Shooting Star.jpg"
+    },
+    {
+      "title": "Machine Man",
+      "power": 10,
+      "city": "Udupi",
+      "poster": "Machine Man.jpg"
+    },
+    {
+      "title": "Dorian Gray",
+      "power": 9,
+      "city": "Hassan",
+      "poster": "Dorian Gray.jpg"
+    },
+    {
+      "title": "Thunderbolt Ross",
+      "power": 2,
+      "city": "Gulbarga",
+      "poster": "Thunderbolt Ross.jpg"
+    },
+    {
+      "title": "Imperfects",
+      "power": 4,
+      "city": "Hospet",
+      "poster": "Imperfects.jpg"
+    },
+    {
+      "title": "Ogun",
+      "power": 8,
+      "city": "Hospet",
+      "poster": "Ogun.jpg"
+    }
+  ]
+}

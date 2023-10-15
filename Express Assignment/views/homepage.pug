@@ -1,0 +1,139 @@
+doctype html
+html(lang="en")
+  head
+    // Include Bootstrap CSS here
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css")
+    style.
+      body {
+            
+            font-family: sans-serif;
+            margin: 50px auto;
+            animation: fontcoloranimation 1s infinite;
+            
+        }
+        h1 {
+            text-align: center;
+            color: red;
+            animation: headinganimation 3s 1;
+            text-shadow: 4px 4px 3px black;
+            font-size: 400%;
+        }
+        .form-container {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px black;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            font-weight: bold;
+        }
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button.btn-primary {
+            width: 100%;
+            padding: 10px;
+            background-color: slategray;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button.btn-primary:hover {
+            background-color: green;
+        }
+        .table {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 5px 5px 10px black;
+        }
+        th, td {
+            text-align: center;
+            vertical-align: middle;
+        }
+        th {
+            background-color: green;
+            color: #fff;
+        }
+
+        @keyframes headinganimation {
+            0% {
+                color: black;
+                text-shadow: 2px 2px 2px black;
+                font-size: xx-large;
+            }
+            100% {
+                color: red;
+                text-shadow: 4px 4px 3px black;
+                font-size: 400%;
+            }
+        }
+        
+        @keyframes fontcoloranimation {
+            0% {
+                
+                color: black;
+            }
+            50% {
+                
+                color: red;
+            }
+            100% {
+                
+                color: green;
+            }
+        }
+    title Super Heroes
+  body
+    h1 Add your Fav Hero
+
+    form(action="/" method="post" class="container")
+      .form-group
+        label(for="title") Title:
+        input(type="text" class="form-control" id="title" name="title" required)
+      .form-group
+        label(for="firstName") First Name:
+        input(type="text" class="form-control" id="firstName" name="firstName" required)
+      .form-group
+        label(for="lastName") Last Name:
+        input(type="text" class="form-control" id="lastName" name="lastName" required)
+      .form-group
+        label(for="power") Power:
+        input(type="text" class="form-control" id="power" name="power" required)
+      .form-group
+        label(for="city") City:
+        input(type="text" class="form-control" id="city" name="city" required)
+      button(type="submit" class="btn btn-primary") Add Hero
+
+    hr
+    h1 HEROES LIST
+    hr
+
+
+    table.table
+      thead
+        tr
+          th Title
+          th First Name
+          th Last Name
+          th Power
+          th City
+      tbody
+        each hero in heroes
+          tr
+            td= hero.title
+            td= hero.firstName
+            td= hero.lastName
+            td= hero.power
+            td= hero.city

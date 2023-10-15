@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Ironman",
+    "firstName": "tony",
+    "lastName": "stark",
+    "power": "7",
+    "city": "newyork"
+  },
+  {
+    "title": "captain america",
+    "firstName": "steeve",
+    "lastName": "rogers",
+    "power": "8",
+    "city": "newyork"
+  },
+  {
+    "title": "hulk",
+    "firstName": "bruce",
+    "lastName": "banner",
+    "power": "9",
+    "city": "new york"
+  },
+  {
+    "title": "Spider Man",
+    "firstName": "Peter",
+    "lastName": "parker",
+    "power": "7",
+    "city": "new york"
+  }
+]
